@@ -1,0 +1,39 @@
+.todoform {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.todoFormContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.todoInput {
+  display: block;
+  border: none;
+  width: 90%;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 10px;
+  height: 4vh;
+}
+.todoInput:focus {
+  outline: none;
+}
+.todoInput:hover {
+  background-color: #fafafa;
+}
+.todoSubmit {
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 20px;
+  font-size: 14px;
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}

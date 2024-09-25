@@ -1,0 +1,43 @@
+.todoWrapper {
+  color: blue;
+  font-size: 1rem;
+  line-height: 29.56px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.todoItem {
+  display: flex;
+  padding: 5px;
+}
+
+.todoValue {
+  flex: 1 1 auto;
+}
+.todoDeleteBtn {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px;
+}
+.todoDeleteBtn:hover {
+  border-radius: 10px;
+  background-color: #f9f6f6;
+}
+
+.todoDeleteSvg {
+  fill: rgb(251, 10, 10);
+}
+.todoDeleteSvg:hover {
+  fill: rgb(149, 3, 3);
+}
+.todoLine {
+  border: 1px solid #e8e5e5;
+  width: 100%;
+}
+
+.completedTodo {
+  text-decoration: line-through;
+}

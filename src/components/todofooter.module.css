@@ -1,0 +1,34 @@
+.footerWrapper {
+  position: fixed;
+  bottom: 0;
+  background-color: #f7ca18;
+  height: 35px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.footerContent {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.footerComponent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.completedLabel {
+  color: #021448;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: normal;
+}
+.completedValue {
+  color: #66051e;
+  font-size: 1.5rem;
+  line-height: normal;
+}
